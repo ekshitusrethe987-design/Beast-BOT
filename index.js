@@ -36,9 +36,9 @@ function startBotLoop() {
   log(`🔁 Connecting as ${username}...`);
 
   bot = mineflayer.createBot({
-    host: IP,
-    port: PORT,
-    username
+    host: BeastMCSMP.aternos.me,
+    port: 31974,
+    username:BeastSMPBOT
   });
 
   bot.on('spawn', () => {
